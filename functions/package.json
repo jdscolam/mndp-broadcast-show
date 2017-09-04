@@ -1,0 +1,16 @@
+{
+  "name": "mnpd-broadcast-show",
+  "description": "MNDP Show Start Broadcast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jon Scolamiero",
+  "license": "MIT",
+  "repository": "https://github.com/jdscolam/mndp-broadcast-show",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "lodash": "^4.17.4"
+  },
+  "private": true
+}
