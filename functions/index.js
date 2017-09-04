@@ -20,7 +20,7 @@ exports.showStart = functions.database.ref('shows/current/mondaynightdanceparty/
         let showSnpashot = event.data;
         let statusSnapshot = showSnpashot.child('status');
 
-        if(!statusSnapshot  .changed()){
+        if(!statusSnapshot.changed() && statusSnapshot.val() !== 'live'){
             console.log('Show is not live, exiting...');
             return 0;
         }
